@@ -1,6 +1,6 @@
-[![NPM version](http://img.shields.io/npm/v/generator-polymer.svg?style=flat)](http://npmjs.org/generator-polymer)
-[![NPM downloads](http://img.shields.io/npm/dm/generator-polymer.svg?style=flat)](http://npmjs.org/generator-polymer)
-[![Dependency Status](http://img.shields.io/david/yeoman/generator-polymer.svg?style=flat)](https://david-dm.org/yeoman/generator-polymer)
+[![NPM version](http://img.shields.io/npm/v/generator-jskeleton-extension.svg?style=flat)](http://npmjs.org/generator-jskeleton-extension)
+[![NPM downloads](http://img.shields.io/npm/dm/generator-jskeleton-extension.svg?style=flat)](http://npmjs.org/generator-jskeleton-extension)
+[![Dependency Status](http://img.shields.io/david/yeoman/generator-jskeleton-extension.svg?style=flat)](https://david-dm.org/yeoman/generator-jskeleton-extension)
 
 
 ## Yeoman generator for Jskeleton Extensions
