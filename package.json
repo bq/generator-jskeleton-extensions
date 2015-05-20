@@ -1,6 +1,6 @@
 {
   "name": "generator-jskeleton-extension",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yeoman generator to build Jskeleton extensions",
   "main": "index.js",
   "scripts": {

@@ -11,10 +11,11 @@ var JskExtension = generator.Base.extend({
 
   init: function(){
     this.argument('appname', { type: String, required: true });
-    this.appName = _.camelize(this.appname);
+    this.appName = 'jskeleton-'+_.camelize(this.appname);
+    this.fileName = this.appname;
 
     this.settings = {
-      appName : this.appName,
+      appName : this.fileName,
       name : this.appName
     };
   },
@@ -54,7 +55,7 @@ JskExtension.prototype.packageFiles = function packageFiles(){
   this.copy('Gruntfile.js', 'Gruntfile.js');
   this.template('_bower.json', 'bower.json', this.settings);
   this.template('_package.json', 'package.json', this.settings);
-  this.template('_extension.js','src/'+this.settings.name+'.js',this.settings);
+  this.template('_extension.js','src/'+this.settings.appName+'.js',this.settings);
 };
 
 JskExtension.prototype._injectDependencies = function _injectDependencies() {
