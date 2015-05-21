@@ -13,7 +13,7 @@ Install the generator
 Make a new directory and cd into it
 `mkdir -p my-project && cd $_`
 
-Scaffold a new Polymer project:
+Scaffold a new Jskeleton extension project:
 `yo jskeleton-extension [extensionName]`
 
 ## Test

@@ -23,4 +23,15 @@ module.exports = function(grunt) {
     
     // Custom tasks
     // grunt.registerTask('task-name', []);
+    grunt.initConfig({
+        uglify: {
+            myTarget: {
+                files: {
+                    'dest/output.min.js': ['src/*.js']
+                 }
+             }
+        }
+    });
+
+    grunt.registerTask('dist', ['uglify']);
 };
