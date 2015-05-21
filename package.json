@@ -1,10 +1,18 @@
 {
   "name": "generator-jskeleton-extension",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Yeoman generator to build Jskeleton extensions",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
+  },
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/bq/generator-jskeleton-extensions"
+  },
+  "bugs" : {
+    "url" : "https://github.com/bq/generator-jskeleton-extensions/issues",
+    "email" : "front-end@bq.com"
   },
   "keywords": [
     "yeoman-generator",
